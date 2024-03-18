@@ -1,0 +1,39 @@
+
+.below-header {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 40px;
+  position: fixed;
+  right: 0px;
+  left: 265px;
+  top: 50px;
+  height: 65px;
+  background-color: white;
+  z-index: 100;
+}
+
+
+.list-1 {
+  background-color: black;
+  color: white;
+  font-weight: bold;
+  padding: 8px 10px 7px 10px;
+  border-radius: 8px;
+  font-size: 14px;
+}
+
+.list {
+  font-family: Roboto;
+  font-weight: 400;
+  background-color: rgba(0, 0, 0, 0.05);
+  color: black;
+  padding: 8px 10px 7px 10px;
+  border-radius: 8px;
+  font-size: 14px;
+}
+
+.list-1:hover, .list:hover {
+  cursor: pointer;
+}

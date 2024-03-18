@@ -1,0 +1,230 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>(15) YouTube</title>
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <link rel="icon" href="icons/Youtube_logo.png">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
+    
+    <link rel="stylesheet" href="styles/general.css">
+    <link rel="stylesheet" href="styles/header.css">
+    <link rel="stylesheet" href="styles/video.css">
+    <link rel="stylesheet" href="styles/sidebar.css">
+    <link rel="stylesheet" href="styles/below-header.css">
+  </head>
+  <body>
+    
+    
+    <header class="header">
+      <div class="left-section">
+        <img class="hamburger-menu" src="icons/hamburger-menu.svg">
+        <img class="youtube-logo" src="icons/youtube-logo.svg">
+      </div>
+      <div class="middle-section">
+        <input class="search-bar" type="text" placeholder="Caută">
+        <button class="search-button">
+          <img class="search-icon" src="icons/search.svg">
+          <div class="tooltip">Cauta</div>
+        </button>
+        <button class="voice-search-button">
+          <img class="voice-search-icon" src="icons/voice-search-icon.svg">
+          <div class="tooltip">Cauta cu ajutorul vocii</div>
+        </button>
+      </div>
+
+      <div class="right-section">
+        <div class="upload-icon-container">
+          <img class="upload-icon" src="icons/upload.svg">
+          <div class="tooltip">Creeaza</div>
+        </div>
+        <div class="notifications-icon-container">
+          <img class="notifications-icon" src="icons/notifications.svg">
+          <div class="notifications-count">9+</div>
+          <div class="tooltip">Notificari</div>
+        </div>
+        <img class="current-user-picture" src="channel-pictures/profile-picture.jpg">
+      </div>
+    </header>
+
+
+    <nav class="below-header"> 
+        <div class="list-1">Toate</div>
+        <div class="list">Jocuri</div>
+        <div class="list">Animatie</div>
+        <div class="list">Mixaje</div>
+        <div class="list">Muzica</div>
+        <div class="list">Jocuri video de simulare</div>
+        <div class="list">Modificari Minecraft</div>
+        <div class="list">Noi pentru tine</div>
+        <div class="list">Vizionate</div>
+        <div class="list">Incarcate recent</div>
+    </nav>
+
+    <nav class="sidebar">
+      <div class="sidebar-link">
+        <img src="icons/home.svg">
+        <div class="icon-name">Acasa</div>
+      </div>
+      <div class="sidebar-link">
+        <img src="icons/explore.svg">
+        <div class="icon-name">Descopera</div>
+      </div>
+      <div class="sidebar-link">
+        <img src="icons/subscriptions.svg">
+        <div class="icon-name">Abonamente</div>
+      </div>
+      <div class="sidebar-link">
+        <img src="icons/originals.svg">
+        <div class="icon-name">Originals</div>
+      </div>
+      <div class="sidebar-link">
+        <img src="icons/youtube-music.svg">
+        <div class="icon-name">YouTube Music</div>
+      </div>
+      <div class="sidebar-link">
+        <img src="icons/library.svg">
+        <div class="icon-name">Librarie</div>
+      </div>
+    </nav>
+    
+    <main>
+      <section class="video-grid">
+        <div class="video-preview">
+          <div class="thumbnail-row">
+              <img class="thumbnail" src="thumbnails/thumbnail-1.webp">
+              <div class="video-time">21:14:42</div>
+            </div>
+            <div class="video-info-grid">
+            <div class="channel-picture">
+              <img class="profile-picture" src="channel-pictures/channel-1.jpg">
+            </div>
+            <div class="video-info">
+              <p class="video-title">
+                <a class="video-link" href="https://www.youtube.com/watch?v=zJSY8tbf_ys">Frontend Web Development Bootcamp Course (JavaScript, HTML, CSS)</a>
+            <p class="video-author">
+             <a class="video-link-channel" href="https://www.youtube.com/@freecodecamp">freeCodeCamp.org</a>
+            </p>
+            <p class="video-stats">
+              2,5 mil. de vizionări &#183; acum 1 an
+            </p>
+          </div>
+          </div>
+        </div>
+        
+        <div class="video-preview">
+            <div class="thumbnail-row">
+              <img class="thumbnail" src="thumbnails/hq720_live.webp">
+              <div class="video-time">3:22:27</div>
+            </div>
+            <div class="video-info-grid">
+            <div class="channel-picture">
+              <img class="profile-picture" src="channel-pictures/channel-2.jpg">
+            </div>
+            <div class="video-info">
+              <p class="video-title">
+                <a class="video-link" href="https://www.youtube.com/watch?v=nkKUrNwIv2I&t=3s">Noul THE LAST OF US 2 REMASTERED in 4K!</a>
+            <p class="video-author">
+              <a class="video-link-channel" href="https://www.youtube.com/@iraphahell">iRaphahell</a>
+            </p>
+            <p class="video-stats">
+              40k de vizionări &#183; acum 12 ore
+            </p>
+          </div>
+          </div>
+        </div>
+    
+        <div class="video-preview">
+          <div class="thumbnail-row">
+              <img class="thumbnail" src="thumbnails/hq720.webp">
+              <div class="video-time">19:34</div>
+            </div>
+            <div class="video-info-grid">
+            <div class="channel-picture">
+              <img class="profile-picture" src="channel-pictures/channels4_profile.jpg">
+            </div>
+            <div class="video-info">
+              <p class="video-title">
+               <a class="video-link" href="https://www.youtube.com/watch?v=qkEBb568JeE&t=608s">I Got INFINITE Beacons in Minecraft Hardcore</a>
+            <p class="video-author">
+              <a class="video-link-channel" href="https://www.youtube.com/@Wildezzz">Wildez</a>
+            </p>
+            <p class="video-stats">
+              17k de vizionări &#183; acum 9 ore
+            </p>
+          </div>
+          </div>
+        </div>
+        
+        <div class="video-preview">
+            <div class="thumbnail-row">
+              <img class="thumbnail" src="thumbnails/hq720 (1).webp">
+              <div class="video-time">15:12</div>
+            </div>
+            <div class="video-info-grid">
+            <div class="channel-picture">
+              <img class="profile-picture" src="channel-pictures/chanel 4.jpg">
+            </div>
+            <div class="video-info">
+              <p class="video-title">
+               <a class="video-link" href="https://www.youtube.com/watch?v=HgqpFKiMz-I&t=352s">Nothing Phone (2a) Review - Did They Lie?</a>
+            <p class="video-author">
+             <a class="video-link-channel" href="https://www.youtube.com/@Mrwhosetheboss"> Mrwhosetheboss</a>
+            </p>
+            <p class="video-stats">
+              230k de vizionări &#183; acum 1 ora
+            </p>
+          </div>
+          </div>
+        </div>
+    
+        <div class="video-preview">
+          <div class="thumbnail-row">
+              <img class="thumbnail" src="thumbnails/thumbnail-5.webp">
+              <div class="video-time">37:15</div>
+            </div>
+            <div class="video-info-grid">
+            <div class="channel-picture">
+              <img class="profile-picture" src="channel-pictures/channel-2.jpg">
+            </div>
+            <div class="video-info">
+              <p class="video-title">
+               <a class="video-link" href="https://www.youtube.com/watch?v=O4e9D2eNOvU">Sunt *SOFER* pe TIR in SPATIU!</a>
+            <p class="video-author">
+              <a class="video-link-channel" href="https://www.youtube.com/@iraphahell">iRaphahell</a>
+            </p>
+            <p class="video-stats">
+              29k de vizionări &#183; acum 19 ore
+            </p>
+          </div>
+          </div>
+        </div>
+        
+        <div class="video-preview">
+            <div class="thumbnail-row">
+              <img class="thumbnail" src="thumbnails/hq720 (2).webp">
+              <div class="video-time">6:17</div>
+            </div>
+            <div class="video-info-grid">
+            <div class="channel-picture">
+              <img class="profile-picture" src="channel-pictures/channel 6.jpg">
+            </div>
+            <div class="video-info">
+              <p class="video-title">
+               <a class="video-link" href="https://www.youtube.com/watch?v=EvRtKGlgmG0">Create Stunning Glass Button Effect using HTML & CSS | Step by Step Tutorial</a>
+            <p class="video-author">
+             <a class="video-link-channel" href="https://www.youtube.com/@HowtoWebDev">How to Web Dev</a>
+            </p>
+            <p class="video-stats">
+              695 de vizionări &#183; acum 2 zile
+            </p>
+          </div>
+          </div>
+        </div>
+      </section>
+    </main>
+  </body>
+</html>
